@@ -1,0 +1,183 @@
+{
+  "meta": {
+    "title": "Sachin Rangaswamy — Computational Materials Scientist",
+    "titleTemplate": "Sachin Rangaswamy",
+    "description": "Research Scientist at Leibniz IWT Bremen. Multiscale simulation, physics-informed machine learning and materials design — from electronic structure to engineering scale."
+  },
+  "nav": {
+    "home": "Home",
+    "research": "Research Journey",
+    "skills": "Skills",
+    "projects": "Projects",
+    "publications": "Publications",
+    "contact": "Contact",
+    "book": "Book Consultation",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "language": "Language"
+  },
+  "hero": {
+    "intro": "Ψ · The Quantum Designer presents",
+    "name": "SACHIN RANGASWAMY",
+    "subtitle": "Research Scientist · Leibniz IWT Bremen",
+    "phrases": [
+      "Computational Materials Scientist",
+      "Scale-Bridging Simulation Expert",
+      "Designing Materials Atom by Atom"
+    ],
+    "ctaJourney": "Begin the Scale Journey",
+    "ctaContact": "Get in Touch",
+    "scrollHint": "Scroll to traverse the scales",
+    "latticeCaption": "Materials emerging from atomic arrangements"
+  },
+  "about": {
+    "title": "About",
+    "heading": "Connecting physics to engineering, one scale at a time",
+    "lead": "I am a computational materials scientist at the Leibniz Institute for Materials Engineering (Leibniz IWT) and PhD candidate at the University of Bremen, working on AI-guided computational materials design for sustainable manufacturing.",
+    "body": "My research links the quantum world to the engineering world: density functional theory and electronic-structure methods describe bonding and energetics; machine-learning interatomic potentials and molecular dynamics resolve atomic motion; CALPHAD thermodynamics, kinetics and phase-field models capture microstructure evolution; and continuum methods translate all of it into component-level performance. Physics-informed machine learning is the thread that stitches these scales together into predictive, interpretable materials-design workflows.",
+    "chainTitle": "The information flow",
+    "chain": [
+      "Electronic Structure",
+      "Atomistic Simulation",
+      "Microstructure Evolution",
+      "Engineering Performance"
+    ],
+    "counters": {
+      "scales": "Length Scales Connected",
+      "physicsMl": "Physics + Machine Learning",
+      "possibilities": "Scientific Possibilities"
+    }
+  },
+  "scales": {
+    "eyebrow": "The Scale Bridge",
+    "title": "A journey through the length scales of matter",
+    "intro": "Every material property an engineer measures is born in the quantum world. Scroll to travel from the wavefunction to the finished component — the same journey information takes in a multiscale simulation.",
+    "hoverHint": "Hover a scale to reveal its methods",
+    "methodLabel": "Methods",
+    "toolsLabel": "Tools",
+    "equationLabel": "Governing equation",
+    "transferLabel": "Information transfer",
+    "items": {
+      "quantum": {
+        "name": "Quantum Scale",
+        "range": "~1 Å · electrons",
+        "method": "Density Functional Theory (DFT)",
+        "description": "At the smallest scale, materials are electrons and nuclei governed by the Schrödinger equation. Density functional theory makes this tractable: the ground-state energy is a functional of the electron density, giving first-principles access to bonding, formation energies, band structures and charge densities — no experimental input required.",
+        "transfer": "Energies & electronic structure feed upward"
+      },
+      "disorder": {
+        "name": "Disordered Alloys",
+        "range": "~1 nm · chemical disorder",
+        "method": "EMTO-CPA",
+        "description": "Real engineering alloys are chemically disordered — atoms of different species share the same lattice randomly. The exact muffin-tin orbital method with the coherent potential approximation (EMTO-CPA) computes the electronic structure of such random alloys directly, predicting how disorder shapes stability, elasticity and magnetism in multicomponent systems.",
+        "transfer": "Alloy energetics parameterize interatomic models"
+      },
+      "atomistic": {
+        "name": "Atomistic Scale",
+        "range": "1–100 nm · atoms in motion",
+        "method": "Machine-Learning Interatomic Potentials · Molecular Dynamics",
+        "description": "Millions of atoms move under Newton's equations, integrated step by step with the velocity-Verlet algorithm. Machine-learning interatomic potentials, trained on DFT data, deliver near-quantum accuracy at a millionth of the cost — resolving diffusion pathways, defect dynamics and interface behaviour inaccessible to either DFT or experiment.",
+        "transfer": "Mobilities & defect energetics inform kinetics"
+      },
+      "micro": {
+        "name": "Microstructure Scale",
+        "range": "µm · phases & grains",
+        "method": "CALPHAD · Phase-Field · Kinetics",
+        "description": "Properties are made in the microstructure. CALPHAD thermodynamics assembles Gibbs-energy databases from first-principles and experimental data to predict phase diagrams; phase-field models evolve that free energy in space and time, simulating solidification, precipitation and grain growth under real processing conditions.",
+        "transfer": "Microstructure state maps to local properties"
+      },
+      "continuum": {
+        "name": "Continuum Scale",
+        "range": "mm · fields & flow",
+        "method": "Computational Fluid Dynamics",
+        "description": "Heat, mass and momentum transport during processing set the boundary conditions for everything below. Computational fluid dynamics solves the conservation equations of continuum mechanics — melt-pool convection, gas flow, thermal gradients — connecting process parameters to the local thermal histories that drive microstructure formation.",
+        "transfer": "Thermal & mechanical fields load the component"
+      },
+      "engineering": {
+        "name": "Engineering Scale",
+        "range": "m · components",
+        "method": "Finite Element Method",
+        "description": "Finally, the finite element method discretizes a real component into elements and solves for stress, strain and temperature under service loads. Here the entire chain pays off: microstructure-informed constitutive laws let a component-level simulation carry quantum-level physics — closing the loop from electrons to engineering.",
+        "transfer": "Performance requirements flow back down"
+      }
+    },
+    "outro": "Design signals flow down as requirements; physics flows up as properties. Bridging both directions is the essence of computational materials design."
+  },
+  "skills": {
+    "eyebrow": "Crystal of Competence",
+    "title": "Skills",
+    "intro": "Methods and tools arranged like atoms in a lattice — each one bonded to its neighbours.",
+    "categories": {
+      "electronic": "Electronic Structure",
+      "atomistic": "Atomistic",
+      "thermo": "Thermodynamics & Kinetics",
+      "continuum": "Continuum",
+      "data": "Data & Code"
+    }
+  },
+  "projects": {
+    "eyebrow": "Research in Action",
+    "title": "Projects",
+    "intro": "Selected research projects across the simulation scales.",
+    "featured": "Featured",
+    "problem": "Scientific problem",
+    "methodology": "Methodology",
+    "tools": "Tools",
+    "outcomes": "Outcomes",
+    "viewAll": "View all projects",
+    "backToProjects": "Back to projects"
+  },
+  "publications": {
+    "eyebrow": "Scientific Record",
+    "title": "Publications",
+    "intro": "Peer-reviewed articles and manuscripts in preparation.",
+    "doi": "DOI",
+    "expand": "Show abstract",
+    "collapse": "Hide abstract",
+    "inPreparation": "In preparation",
+    "empty": "Full publication list coming online soon — my doctoral work at Leibniz IWT is generating its first manuscripts.",
+    "filterAll": "All"
+  },
+  "contact": {
+    "eyebrow": "Establish Contact",
+    "title": "Contact",
+    "intro": "For research collaboration, industry consultation or anything in between — the wavefunction is always open to interaction.",
+    "emailTitle": "Email",
+    "emailText": "The fastest channel for research matters.",
+    "linkedinTitle": "LinkedIn",
+    "linkedinText": "Professional network and updates.",
+    "collabTitle": "Collaboration & Consulting",
+    "collabText": "Multiscale simulation, CALPHAD, materials informatics and ML-driven materials design.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "purpose": "Purpose",
+      "purposes": {
+        "research": "Research Collaboration",
+        "industry": "Industry Consultation",
+        "general": "General Inquiry"
+      },
+      "submit": "Send Message",
+      "sending": "Opening your mail client…",
+      "hint": "The form opens your email client with a prefilled message."
+    },
+    "appointment": {
+      "title": "Book a Consultation",
+      "text": "Schedule a 30-minute call to discuss your materials-design challenge.",
+      "cta": "Open Scheduling",
+      "placeholder": "Calendly booking will appear here"
+    }
+  },
+  "footer": {
+    "designedBy": "Designed by Ψ · Built by Science",
+    "backToTop": "Back to top",
+    "affiliation": "Leibniz Institute for Materials Engineering — IWT, Bremen",
+    "rights": "All rights reserved."
+  },
+  "notFound": {
+    "title": "State not found",
+    "text": "This wavefunction has collapsed to zero probability. The page you are looking for does not exist.",
+    "back": "Return to ground state"
+  }
+}

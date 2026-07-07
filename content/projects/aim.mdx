@@ -1,0 +1,50 @@
+---
+title: 'AIM — AI-guided Computational Materials Design'
+summary: 'Doctoral research project at Leibniz IWT: physically interpretable, AI-guided materials design workflows for sustainable manufacturing.'
+problem: 'Designing sustainable alloys today still relies on slow, experiment-heavy iteration. The challenge: build design workflows where machine learning accelerates the search without losing physical interpretability.'
+methodology: 'Integration of electronic-structure concepts, CALPHAD thermodynamic modeling and kinetic simulations into AI-guided workflows, developed within the Prof. Kabliman group at Leibniz IWT and the University of Bremen.'
+tools:
+  - CALPHAD
+  - Thermo-Calc
+  - pycalphad
+  - Python
+  - Machine Learning
+outcomes: 'A growing computational framework that couples thermodynamics, kinetics and machine learning for alloy design problems in sustainable manufacturing.'
+scales:
+  - Electronic Structure
+  - Microstructure
+  - Engineering
+featured: true
+order: 1
+---
+
+## The project
+
+**AIM — AI-guided Computational Materials Design for Sustainable Manufacturing** is my
+doctoral research project at the Leibniz Institute for Materials Engineering (IWT) and the
+University of Bremen, in the group of Prof. Kabliman.
+
+The core idea: materials design should be *fast like machine learning* and
+*trustworthy like physics*. Pure black-box models can interpolate, but they cannot
+explain — and in materials engineering, an unexplained prediction is a prediction
+nobody will manufacture.
+
+## Approach
+
+The workflow couples three layers of physics:
+
+1. **Electronic-structure concepts** provide the energetics that anchor everything above.
+2. **CALPHAD thermodynamic modeling** turns those energetics into multicomponent phase
+   equilibria — which phases form, at which temperatures, in which amounts.
+3. **Kinetic simulations** add the time axis: how fast microstructures actually evolve
+   under realistic processing schedules.
+
+Machine learning wraps around this chain — not replacing the physics, but steering it:
+proposing candidate compositions, learning surrogate models where full simulations are
+too expensive, and keeping every prediction traceable back to a physical quantity.
+
+## Why it matters
+
+Sustainable manufacturing needs alloys designed for recyclability, reduced critical-element
+content and energy-efficient processing. Physics-anchored AI workflows make it possible to
+explore that design space orders of magnitude faster than experiment alone.

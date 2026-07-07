@@ -1,0 +1,183 @@
+{
+  "meta": {
+    "title": "Sachin Rangaswamy — Computergestützte Materialwissenschaft",
+    "titleTemplate": "Sachin Rangaswamy",
+    "description": "Wissenschaftler am Leibniz-IWT Bremen. Multiskalensimulation, physikinformiertes maschinelles Lernen und Werkstoffdesign — von der Elektronenstruktur bis zur Bauteilskala."
+  },
+  "nav": {
+    "home": "Start",
+    "research": "Forschungsreise",
+    "skills": "Kompetenzen",
+    "projects": "Projekte",
+    "publications": "Publikationen",
+    "contact": "Kontakt",
+    "book": "Beratung buchen",
+    "openMenu": "Menü öffnen",
+    "closeMenu": "Menü schließen",
+    "language": "Sprache"
+  },
+  "hero": {
+    "intro": "Ψ · Der Quanten-Designer präsentiert",
+    "name": "SACHIN RANGASWAMY",
+    "subtitle": "Wissenschaftler · Leibniz-IWT Bremen",
+    "phrases": [
+      "Computergestützter Materialwissenschaftler",
+      "Experte für skalenübergreifende Simulation",
+      "Werkstoffdesign — Atom für Atom"
+    ],
+    "ctaJourney": "Die Skalenreise beginnen",
+    "ctaContact": "Kontakt aufnehmen",
+    "scrollHint": "Scrollen, um die Skalen zu durchqueren",
+    "latticeCaption": "Werkstoffe entstehen aus atomarer Ordnung"
+  },
+  "about": {
+    "title": "Über mich",
+    "heading": "Physik und Ingenieurwesen verbinden — Skala für Skala",
+    "lead": "Ich bin computergestützter Materialwissenschaftler am Leibniz-Institut für Werkstofforientierte Technologien (Leibniz-IWT) und Doktorand an der Universität Bremen. Mein Thema: KI-gestütztes computergestütztes Werkstoffdesign für nachhaltige Fertigung.",
+    "body": "Meine Forschung verbindet die Quantenwelt mit der Ingenieurwelt: Dichtefunktionaltheorie und Elektronenstrukturmethoden beschreiben Bindung und Energetik; ML-Interatompotenziale und Molekulardynamik lösen die atomare Bewegung auf; CALPHAD-Thermodynamik, Kinetik und Phasenfeldmodelle erfassen die Gefügeentwicklung; Kontinuumsmethoden übersetzen all das in Bauteilverhalten. Physikinformiertes maschinelles Lernen ist der Faden, der diese Skalen zu prädiktiven, interpretierbaren Designworkflows verknüpft.",
+    "chainTitle": "Der Informationsfluss",
+    "chain": [
+      "Elektronenstruktur",
+      "Atomistische Simulation",
+      "Gefügeentwicklung",
+      "Bauteilverhalten"
+    ],
+    "counters": {
+      "scales": "Verbundene Längenskalen",
+      "physicsMl": "Physik + Maschinelles Lernen",
+      "possibilities": "Wissenschaftliche Möglichkeiten"
+    }
+  },
+  "scales": {
+    "eyebrow": "Die Skalenbrücke",
+    "title": "Eine Reise durch die Längenskalen der Materie",
+    "intro": "Jede Werkstoffeigenschaft, die ein Ingenieur misst, entsteht in der Quantenwelt. Scrollen Sie von der Wellenfunktion bis zum fertigen Bauteil — derselbe Weg, den Information in einer Multiskalensimulation nimmt.",
+    "hoverHint": "Skala berühren, um Methoden anzuzeigen",
+    "methodLabel": "Methoden",
+    "toolsLabel": "Werkzeuge",
+    "equationLabel": "Grundgleichung",
+    "transferLabel": "Informationstransfer",
+    "items": {
+      "quantum": {
+        "name": "Quantenskala",
+        "range": "~1 Å · Elektronen",
+        "method": "Dichtefunktionaltheorie (DFT)",
+        "description": "Auf der kleinsten Skala sind Werkstoffe Elektronen und Kerne, beschrieben durch die Schrödinger-Gleichung. Die Dichtefunktionaltheorie macht das handhabbar: Die Grundzustandsenergie ist ein Funktional der Elektronendichte — Bindung, Bildungsenergien, Bandstrukturen und Ladungsdichten aus ersten Prinzipien, ganz ohne experimentelle Eingaben.",
+        "transfer": "Energien & Elektronenstruktur fließen nach oben"
+      },
+      "disorder": {
+        "name": "Ungeordnete Legierungen",
+        "range": "~1 nm · chemische Unordnung",
+        "method": "EMTO-CPA",
+        "description": "Reale Legierungen sind chemisch ungeordnet — verschiedene Atomsorten teilen sich zufällig dasselbe Gitter. Die EMTO-Methode mit Coherent Potential Approximation (EMTO-CPA) berechnet die Elektronenstruktur solcher Zufallslegierungen direkt und sagt vorher, wie Unordnung Stabilität, Elastizität und Magnetismus in Mehrkomponentensystemen prägt.",
+        "transfer": "Legierungsenergetik parametriert Atompotenziale"
+      },
+      "atomistic": {
+        "name": "Atomistische Skala",
+        "range": "1–100 nm · Atome in Bewegung",
+        "method": "ML-Interatompotenziale · Molekulardynamik",
+        "description": "Millionen Atome folgen Newtons Bewegungsgleichungen, Schritt für Schritt mit dem Velocity-Verlet-Algorithmus integriert. Auf DFT-Daten trainierte ML-Potenziale liefern nahezu Quantengenauigkeit zu einem Millionstel der Kosten — und lösen Diffusionspfade, Defektdynamik und Grenzflächen auf, die weder DFT noch Experiment erreichen.",
+        "transfer": "Mobilitäten & Defektenergetik speisen die Kinetik"
+      },
+      "micro": {
+        "name": "Gefügeskala",
+        "range": "µm · Phasen & Körner",
+        "method": "CALPHAD · Phasenfeld · Kinetik",
+        "description": "Eigenschaften entstehen im Gefüge. CALPHAD-Thermodynamik baut Gibbs-Energie-Datenbanken aus Ab-initio- und Experimentaldaten auf und sagt Phasendiagramme vorher; Phasenfeldmodelle entwickeln diese freie Energie in Raum und Zeit — Erstarrung, Ausscheidung und Kornwachstum unter realen Prozessbedingungen.",
+        "transfer": "Gefügezustand wird zu lokalen Eigenschaften"
+      },
+      "continuum": {
+        "name": "Kontinuumsskala",
+        "range": "mm · Felder & Strömung",
+        "method": "Numerische Strömungsmechanik (CFD)",
+        "description": "Wärme-, Stoff- und Impulstransport während der Prozessierung setzen die Randbedingungen für alles darunter. CFD löst die Erhaltungsgleichungen der Kontinuumsmechanik — Schmelzbadkonvektion, Gasströmung, Temperaturgradienten — und verknüpft Prozessparameter mit den lokalen Temperaturverläufen, die das Gefüge formen.",
+        "transfer": "Thermische & mechanische Felder belasten das Bauteil"
+      },
+      "engineering": {
+        "name": "Bauteilskala",
+        "range": "m · Komponenten",
+        "method": "Finite-Elemente-Methode",
+        "description": "Schließlich diskretisiert die Finite-Elemente-Methode ein reales Bauteil und berechnet Spannung, Dehnung und Temperatur unter Betriebslasten. Hier zahlt sich die gesamte Kette aus: gefügebasierte Materialgesetze tragen Quantenphysik bis in die Bauteilsimulation — der Kreis von den Elektronen zum Ingenieurwesen schließt sich.",
+        "transfer": "Anforderungen fließen zurück nach unten"
+      }
+    },
+    "outro": "Designsignale fließen als Anforderungen nach unten; Physik fließt als Eigenschaften nach oben. Beide Richtungen zu überbrücken ist der Kern des computergestützten Werkstoffdesigns."
+  },
+  "skills": {
+    "eyebrow": "Kristall der Kompetenz",
+    "title": "Kompetenzen",
+    "intro": "Methoden und Werkzeuge, angeordnet wie Atome im Gitter — jedes an seine Nachbarn gebunden.",
+    "categories": {
+      "electronic": "Elektronenstruktur",
+      "atomistic": "Atomistik",
+      "thermo": "Thermodynamik & Kinetik",
+      "continuum": "Kontinuum",
+      "data": "Daten & Code"
+    }
+  },
+  "projects": {
+    "eyebrow": "Forschung in Aktion",
+    "title": "Projekte",
+    "intro": "Ausgewählte Forschungsprojekte über alle Simulationsskalen.",
+    "featured": "Im Fokus",
+    "problem": "Wissenschaftliche Fragestellung",
+    "methodology": "Methodik",
+    "tools": "Werkzeuge",
+    "outcomes": "Ergebnisse",
+    "viewAll": "Alle Projekte ansehen",
+    "backToProjects": "Zurück zu den Projekten"
+  },
+  "publications": {
+    "eyebrow": "Wissenschaftliche Bilanz",
+    "title": "Publikationen",
+    "intro": "Begutachtete Artikel und Manuskripte in Vorbereitung.",
+    "doi": "DOI",
+    "expand": "Abstract anzeigen",
+    "collapse": "Abstract verbergen",
+    "inPreparation": "In Vorbereitung",
+    "empty": "Die vollständige Publikationsliste erscheint in Kürze — meine Promotion am Leibniz-IWT bringt gerade ihre ersten Manuskripte hervor.",
+    "filterAll": "Alle"
+  },
+  "contact": {
+    "eyebrow": "Kontakt aufnehmen",
+    "title": "Kontakt",
+    "intro": "Für Forschungskooperationen, Industrieberatung oder alles dazwischen — die Wellenfunktion ist immer offen für Wechselwirkung.",
+    "emailTitle": "E-Mail",
+    "emailText": "Der schnellste Kanal für Forschungsthemen.",
+    "linkedinTitle": "LinkedIn",
+    "linkedinText": "Berufliches Netzwerk und Neuigkeiten.",
+    "collabTitle": "Kooperation & Beratung",
+    "collabText": "Multiskalensimulation, CALPHAD, Materialinformatik und ML-gestütztes Werkstoffdesign.",
+    "form": {
+      "name": "Name",
+      "email": "E-Mail",
+      "message": "Nachricht",
+      "purpose": "Anliegen",
+      "purposes": {
+        "research": "Forschungskooperation",
+        "industry": "Industrieberatung",
+        "general": "Allgemeine Anfrage"
+      },
+      "submit": "Nachricht senden",
+      "sending": "E-Mail-Programm wird geöffnet…",
+      "hint": "Das Formular öffnet Ihr E-Mail-Programm mit einer vorbereiteten Nachricht."
+    },
+    "appointment": {
+      "title": "Beratung buchen",
+      "text": "Vereinbaren Sie ein 30-minütiges Gespräch über Ihre Werkstoffdesign-Herausforderung.",
+      "cta": "Terminplanung öffnen",
+      "placeholder": "Die Calendly-Buchung erscheint hier"
+    }
+  },
+  "footer": {
+    "designedBy": "Designed by Ψ · Built by Science",
+    "backToTop": "Nach oben",
+    "affiliation": "Leibniz-Institut für Werkstofforientierte Technologien — IWT, Bremen",
+    "rights": "Alle Rechte vorbehalten."
+  },
+  "notFound": {
+    "title": "Zustand nicht gefunden",
+    "text": "Diese Wellenfunktion ist auf null Wahrscheinlichkeit kollabiert. Die gesuchte Seite existiert nicht.",
+    "back": "Zurück in den Grundzustand"
+  }
+}

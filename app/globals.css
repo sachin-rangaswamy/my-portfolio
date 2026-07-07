@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --deep-space: #0a0a0f;
+  --quantum-indigo: #6c63ff;
+  --energy-teal: #00f5d4;
+  --scientific-gold: #ffd166;
+  --warm-white: #f0f0f0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+body {
+  background-color: var(--deep-space);
+  color: var(--warm-white);
+  overflow-x: hidden;
+}
+
+::selection {
+  background: rgba(108, 99, 255, 0.55);
+  color: #fff;
+}
+
+/* Scientific scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0a0f;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #6c63ff, #00f5d4);
+  border-radius: 5px;
+}
+
+@layer components {
+  .glass {
+    @apply border border-white/10 bg-white/[0.04] backdrop-blur-xl;
+  }
+
+  .section-eyebrow {
+    @apply mb-3 font-heading text-sm uppercase tracking-[0.35em] text-energy;
+  }
+
+  .section-title {
+    @apply font-display text-3xl font-bold text-warm sm:text-4xl lg:text-5xl;
+  }
+
+  .gradient-text {
+    @apply bg-gradient-to-r from-quantum via-energy to-gold bg-clip-text text-transparent;
+  }
+
+  .glow-border {
+    box-shadow:
+      0 0 0 1px rgba(108, 99, 255, 0.35),
+      0 0 24px rgba(108, 99, 255, 0.15);
+  }
+}
+
+/* KaTeX inside dark theme */
+.katex {
+  color: var(--scientific-gold);
+}
+
+.katex-display {
+  margin: 0.5rem 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 0.25rem 0;
+}
+
+/* Flowing information stream between scale nodes */
+.energy-stream {
+  stroke-dasharray: 6 18;
+  animation: flow-dash 1.8s linear infinite;
+}
+
+@keyframes flow-dash {
+  to {
+    stroke-dashoffset: -24;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .energy-stream {
+    animation: none;
+  }
+}

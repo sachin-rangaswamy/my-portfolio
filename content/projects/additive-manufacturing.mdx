@@ -1,0 +1,46 @@
+---
+title: 'Scale-Bridging Simulation for Additive Manufacturing'
+summary: 'ICME-style workflows linking process conditions in directed energy deposition (DED) to microstructure and properties via CALPHAD and kinetics.'
+problem: 'In additive manufacturing, every point of a part experiences a different thermal history — and therefore develops a different microstructure. How do we predict local properties from process parameters?'
+methodology: 'Integrated computational materials engineering (ICME): thermal conditions from the process feed CALPHAD-based solidification and precipitation models, whose microstructure predictions map to local mechanical properties.'
+tools:
+  - CALPHAD
+  - Thermo-Calc
+  - pycalphad
+  - Kinetics
+  - Python
+outcomes: 'A scale-bridging pipeline connecting DED process conditions to phase constitution and microstructure evolution in stainless steels.'
+scales:
+  - Microstructure
+  - Continuum
+  - Engineering
+featured: false
+order: 3
+---
+
+## The challenge
+
+**Directed energy deposition (DED)** builds parts layer by layer with a moving melt
+pool. The result is a material whose microstructure varies point by point: rapid
+solidification, repeated reheating, steep gradients. Conventional "one microstructure
+per alloy" thinking breaks down completely.
+
+## The scale-bridging pipeline
+
+This is integrated computational materials engineering (ICME) in its purest form:
+
+1. **Process → temperature field.** The moving heat source defines local thermal
+   histories throughout the part.
+2. **Temperature → thermodynamics.** CALPHAD calculations predict phase constitution
+   along each thermal path — solidification sequences, phase fractions and
+   transformation temperatures in multicomponent stainless steels.
+3. **Thermodynamics → kinetics.** Diffusion-controlled transformation and precipitation
+   models add the time axis that rapid AM processing makes so critical.
+4. **Microstructure → properties.** The predicted local microstructure state maps to
+   local mechanical behaviour across the component.
+
+## Why it matters
+
+If local properties can be predicted from process parameters, additive manufacturing
+stops being a qualification nightmare and becomes a design tool: microstructure by
+prescription, not by accident.

@@ -1,0 +1,36 @@
+---
+title: 'Deep Learning Acceleration of Kinetic Monte Carlo'
+summary: 'Autoregressive deep-learning models that accelerate kinetic Monte Carlo simulations, developed at the Bavarian Center for Battery Technology (BayBatt).'
+problem: 'Kinetic Monte Carlo resolves rare-event dynamics with atomic fidelity, but its sequential nature makes long-time simulations painfully slow. Can a neural network learn to propagate the dynamics directly?'
+methodology: 'Autoregressive deep-learning architectures trained on KMC trajectories to predict future system states, applied to problems in chemical engineering.'
+tools:
+  - Kinetic Monte Carlo
+  - Python
+  - Deep Learning
+outcomes: 'Proof-of-concept autoregressive surrogates that reproduce KMC dynamics at a fraction of the computational cost.'
+scales:
+  - Atomistic
+featured: false
+order: 4
+---
+
+## The bottleneck
+
+**Kinetic Monte Carlo (KMC)** is the method of choice when the interesting physics
+happens through rare events — diffusion hops, adsorption, reaction steps. Its weakness
+is intrinsic: events are simulated one at a time, in sequence. Long-time, large-system
+simulations become prohibitively expensive.
+
+## The idea
+
+During my internship at the **Bavarian Center for Battery Technology (BayBatt)** in
+Bayreuth, I worked on *autoregressive deep learning* as an accelerator: train a network
+on KMC trajectories so that it learns the distribution of state evolutions, then let it
+propagate the system forward in large strides — the way a language model predicts the
+next token, but for atomic configurations.
+
+## Outlook
+
+Surrogate dynamics is one of the most promising shortcuts in the multiscale toolbox:
+keep the physics of the fine scale, but pay only a fraction of its cost when bridging
+to engineering-relevant timescales.

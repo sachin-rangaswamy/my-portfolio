@@ -1,0 +1,183 @@
+{
+  "meta": {
+    "title": "Sachin Rangaswamy — Científico de Materiales Computacional",
+    "titleTemplate": "Sachin Rangaswamy",
+    "description": "Científico investigador en el Leibniz IWT de Bremen. Simulación multiescala, aprendizaje automático informado por la física y diseño de materiales — desde la estructura electrónica hasta la escala de ingeniería."
+  },
+  "nav": {
+    "home": "Inicio",
+    "research": "Viaje Científico",
+    "skills": "Competencias",
+    "projects": "Proyectos",
+    "publications": "Publicaciones",
+    "contact": "Contacto",
+    "book": "Reservar consulta",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú",
+    "language": "Idioma"
+  },
+  "hero": {
+    "intro": "Ψ · El Diseñador Cuántico presenta",
+    "name": "SACHIN RANGASWAMY",
+    "subtitle": "Científico Investigador · Leibniz IWT Bremen",
+    "phrases": [
+      "Científico de Materiales Computacional",
+      "Experto en Simulación Multiescala",
+      "Diseñando Materiales Átomo a Átomo"
+    ],
+    "ctaJourney": "Comenzar el viaje entre escalas",
+    "ctaContact": "Contactar",
+    "scrollHint": "Desplázate para atravesar las escalas",
+    "latticeCaption": "Materiales que emergen del orden atómico"
+  },
+  "about": {
+    "title": "Sobre mí",
+    "heading": "Conectando la física con la ingeniería, escala a escala",
+    "lead": "Soy científico de materiales computacional en el Instituto Leibniz de Ingeniería de Materiales (Leibniz IWT) y doctorando en la Universidad de Bremen, trabajando en el diseño computacional de materiales guiado por IA para una fabricación sostenible.",
+    "body": "Mi investigación une el mundo cuántico con el mundo de la ingeniería: la teoría del funcional de la densidad y los métodos de estructura electrónica describen el enlace y la energética; los potenciales interatómicos de aprendizaje automático y la dinámica molecular resuelven el movimiento atómico; la termodinámica CALPHAD, la cinética y los modelos de campo de fases capturan la evolución de la microestructura; y los métodos del continuo lo traducen todo en rendimiento a nivel de componente. El aprendizaje automático informado por la física es el hilo que une estas escalas en flujos de diseño predictivos e interpretables.",
+    "chainTitle": "El flujo de información",
+    "chain": [
+      "Estructura electrónica",
+      "Simulación atomística",
+      "Evolución de la microestructura",
+      "Rendimiento en ingeniería"
+    ],
+    "counters": {
+      "scales": "Escalas de longitud conectadas",
+      "physicsMl": "Física + Aprendizaje Automático",
+      "possibilities": "Posibilidades científicas"
+    }
+  },
+  "scales": {
+    "eyebrow": "El Puente de Escalas",
+    "title": "Un viaje por las escalas de longitud de la materia",
+    "intro": "Toda propiedad que mide un ingeniero nace en el mundo cuántico. Desplázate para viajar desde la función de onda hasta el componente terminado — el mismo camino que recorre la información en una simulación multiescala.",
+    "hoverHint": "Pasa el cursor sobre una escala para ver sus métodos",
+    "methodLabel": "Métodos",
+    "toolsLabel": "Herramientas",
+    "equationLabel": "Ecuación fundamental",
+    "transferLabel": "Transferencia de información",
+    "items": {
+      "quantum": {
+        "name": "Escala Cuántica",
+        "range": "~1 Å · electrones",
+        "method": "Teoría del Funcional de la Densidad (DFT)",
+        "description": "En la escala más pequeña, los materiales son electrones y núcleos gobernados por la ecuación de Schrödinger. La DFT lo hace tratable: la energía del estado fundamental es un funcional de la densidad electrónica, dando acceso desde primeros principios al enlace, las energías de formación, las estructuras de bandas y las densidades de carga — sin datos experimentales.",
+        "transfer": "Energías y estructura electrónica fluyen hacia arriba"
+      },
+      "disorder": {
+        "name": "Aleaciones Desordenadas",
+        "range": "~1 nm · desorden químico",
+        "method": "EMTO-CPA",
+        "description": "Las aleaciones reales son químicamente desordenadas: átomos de distintas especies comparten la misma red al azar. El método EMTO con la aproximación de potencial coherente (EMTO-CPA) calcula directamente la estructura electrónica de estas aleaciones aleatorias, prediciendo cómo el desorden determina la estabilidad, la elasticidad y el magnetismo en sistemas multicomponente.",
+        "transfer": "La energética de la aleación parametriza los potenciales"
+      },
+      "atomistic": {
+        "name": "Escala Atomística",
+        "range": "1–100 nm · átomos en movimiento",
+        "method": "Potenciales Interatómicos de ML · Dinámica Molecular",
+        "description": "Millones de átomos se mueven según las ecuaciones de Newton, integradas paso a paso con el algoritmo velocity-Verlet. Los potenciales de aprendizaje automático, entrenados con datos DFT, ofrecen precisión casi cuántica a una millonésima parte del coste — resolviendo rutas de difusión, dinámica de defectos e interfaces inaccesibles para la DFT o el experimento.",
+        "transfer": "Movilidades y energética de defectos alimentan la cinética"
+      },
+      "micro": {
+        "name": "Escala de Microestructura",
+        "range": "µm · fases y granos",
+        "method": "CALPHAD · Campo de Fases · Cinética",
+        "description": "Las propiedades se forjan en la microestructura. La termodinámica CALPHAD construye bases de datos de energía de Gibbs a partir de datos ab initio y experimentales para predecir diagramas de fases; los modelos de campo de fases evolucionan esa energía libre en el espacio y el tiempo, simulando solidificación, precipitación y crecimiento de grano en condiciones reales de procesado.",
+        "transfer": "El estado microestructural se traduce en propiedades locales"
+      },
+      "continuum": {
+        "name": "Escala del Continuo",
+        "range": "mm · campos y flujo",
+        "method": "Dinámica de Fluidos Computacional",
+        "description": "El transporte de calor, masa y cantidad de movimiento durante el procesado fija las condiciones de contorno de todo lo demás. La CFD resuelve las ecuaciones de conservación de la mecánica del continuo — convección del baño fundido, flujo de gas, gradientes térmicos — conectando los parámetros del proceso con las historias térmicas locales que gobiernan la microestructura.",
+        "transfer": "Los campos térmicos y mecánicos cargan el componente"
+      },
+      "engineering": {
+        "name": "Escala de Ingeniería",
+        "range": "m · componentes",
+        "method": "Método de Elementos Finitos",
+        "description": "Finalmente, el método de elementos finitos discretiza un componente real y resuelve tensiones, deformaciones y temperaturas bajo cargas de servicio. Aquí toda la cadena da sus frutos: leyes constitutivas informadas por la microestructura permiten que una simulación de componente lleve consigo física cuántica — cerrando el ciclo de los electrones a la ingeniería.",
+        "transfer": "Los requisitos de rendimiento fluyen de vuelta hacia abajo"
+      }
+    },
+    "outro": "Las señales de diseño bajan como requisitos; la física sube como propiedades. Tender puentes en ambas direcciones es la esencia del diseño computacional de materiales."
+  },
+  "skills": {
+    "eyebrow": "Cristal de Competencias",
+    "title": "Competencias",
+    "intro": "Métodos y herramientas dispuestos como átomos en una red — cada uno enlazado a sus vecinos.",
+    "categories": {
+      "electronic": "Estructura electrónica",
+      "atomistic": "Atomística",
+      "thermo": "Termodinámica y cinética",
+      "continuum": "Continuo",
+      "data": "Datos y código"
+    }
+  },
+  "projects": {
+    "eyebrow": "Investigación en Acción",
+    "title": "Proyectos",
+    "intro": "Proyectos de investigación seleccionados a través de las escalas de simulación.",
+    "featured": "Destacado",
+    "problem": "Problema científico",
+    "methodology": "Metodología",
+    "tools": "Herramientas",
+    "outcomes": "Resultados",
+    "viewAll": "Ver todos los proyectos",
+    "backToProjects": "Volver a los proyectos"
+  },
+  "publications": {
+    "eyebrow": "Registro Científico",
+    "title": "Publicaciones",
+    "intro": "Artículos revisados por pares y manuscritos en preparación.",
+    "doi": "DOI",
+    "expand": "Mostrar resumen",
+    "collapse": "Ocultar resumen",
+    "inPreparation": "En preparación",
+    "empty": "La lista completa de publicaciones llegará pronto — mi doctorado en el Leibniz IWT está generando sus primeros manuscritos.",
+    "filterAll": "Todas"
+  },
+  "contact": {
+    "eyebrow": "Establecer Contacto",
+    "title": "Contacto",
+    "intro": "Para colaboración científica, consultoría industrial o cualquier cosa intermedia — la función de onda siempre está abierta a la interacción.",
+    "emailTitle": "Correo",
+    "emailText": "El canal más rápido para asuntos de investigación.",
+    "linkedinTitle": "LinkedIn",
+    "linkedinText": "Red profesional y novedades.",
+    "collabTitle": "Colaboración y Consultoría",
+    "collabText": "Simulación multiescala, CALPHAD, informática de materiales y diseño de materiales con ML.",
+    "form": {
+      "name": "Nombre",
+      "email": "Correo electrónico",
+      "message": "Mensaje",
+      "purpose": "Motivo",
+      "purposes": {
+        "research": "Colaboración científica",
+        "industry": "Consultoría industrial",
+        "general": "Consulta general"
+      },
+      "submit": "Enviar mensaje",
+      "sending": "Abriendo tu cliente de correo…",
+      "hint": "El formulario abre tu cliente de correo con un mensaje ya preparado."
+    },
+    "appointment": {
+      "title": "Reservar una consulta",
+      "text": "Agenda una llamada de 30 minutos para hablar de tu reto de diseño de materiales.",
+      "cta": "Abrir agenda",
+      "placeholder": "La reserva de Calendly aparecerá aquí"
+    }
+  },
+  "footer": {
+    "designedBy": "Designed by Ψ · Built by Science",
+    "backToTop": "Volver arriba",
+    "affiliation": "Instituto Leibniz de Ingeniería de Materiales — IWT, Bremen",
+    "rights": "Todos los derechos reservados."
+  },
+  "notFound": {
+    "title": "Estado no encontrado",
+    "text": "Esta función de onda ha colapsado a probabilidad cero. La página que buscas no existe.",
+    "back": "Volver al estado fundamental"
+  }
+}
