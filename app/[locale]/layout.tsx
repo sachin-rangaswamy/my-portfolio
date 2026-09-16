@@ -7,6 +7,7 @@ import {
   getTranslations,
   setRequestLocale,
 } from 'next-intl/server';
+import { Analytics } from '@vercel/analytics/next';
 import { routing } from '@/i18n/routing';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
@@ -163,6 +164,7 @@ export default async function LocaleLayout({
             <Footer />
           </div>
         </NextIntlClientProvider>
+        <Analytics />
       </body>
     </html>
   );
